@@ -1,0 +1,39 @@
+[Case Recommender: Item Recommendation > Content Based Algorithm]
+
+train data:: 400 users and 1297 items (28768 interactions) | sparsity:: 94.45%
+test data:: 398 users and 1294 items (14170 interactions) | sparsity:: 97.25%
+
+training_time:: 0.022730 sec
+prediction_time:: 26.270104 sec
+
+
+PREC@10	PREC@20	PREC@50	RECALL@10	RECALL@20	RECALL@50	NDCG@10	NDCG@20	NDCG@50	MAP@10	MAP@20	MAP@50	
+0.042965	0.03907	0.039095	0.011682	0.022015	0.067324	0.160255	0.182906	0.219758	0.113372	0.107093	0.094258	
+
+
+
+[Case Recommender: Item Recommendation > Content Based Algorithm]
+
+train data:: 610 users and 1297 items (45491 interactions) | sparsity:: 94.25%
+test data:: 610 users and 1297 items (22407 interactions) | sparsity:: 97.17%
+
+training_time:: 0.022645 sec
+prediction_time:: 37.488403 sec
+
+
+PREC@10	PREC@20	PREC@50	RECALL@10	RECALL@20	RECALL@50	NDCG@10	NDCG@20	NDCG@50	MAP@10	MAP@20	MAP@50	
+0.041803	0.039262	0.040295	0.009322	0.017825	0.064542	0.164075	0.179531	0.220076	0.110834	0.107248	0.092398	
+
+
+
+[Case Recommender: Item Recommendation > Content Based Algorithm]
+
+train data:: 610 users and 8380 items (67560 interactions) | sparsity:: 98.68%
+test data:: 610 users and 6413 items (33276 interactions) | sparsity:: 99.15%
+
+training_time:: 0.712304 sec
+prediction_time:: 523.877649 sec
+
+
+PREC@10	PREC@20	PREC@50	RECALL@10	RECALL@20	RECALL@50	NDCG@10	NDCG@20	NDCG@50	MAP@10	MAP@20	MAP@50	
+0.026066	0.018934	0.013115	0.006169	0.009398	0.018127	0.111351	0.129016	0.142673	0.07069	0.074662	0.070245	
